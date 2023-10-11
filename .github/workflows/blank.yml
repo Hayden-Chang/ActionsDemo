@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fly
+        run: echo I am flying!
